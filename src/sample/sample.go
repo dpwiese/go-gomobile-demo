@@ -37,7 +37,7 @@ type domainType struct {
 	Max float64 `json:"max"`
 }
 
-// Set to enable print for debugging
+// Set to enable print for debugging (swap `_ `and `out` to enable/disable)
 var _ io.Writer = ioutil.Discard
 var out = os.Stdout
 
